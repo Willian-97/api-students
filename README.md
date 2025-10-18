@@ -1,2 +1,16 @@
 # api-students
-API to course students
+API to manege 'Golang' course students
+
+## Routes:
+- /students - List all students
+- POST /students - Create student
+- GET /students/:id - Get infos from a specific student
+- PUT /students/:id - Update student
+- DELETE /students/:id - Delete student
+
+## Struct Student:
+- Name
+- CPF
+- Email
+- Age
+- Active
